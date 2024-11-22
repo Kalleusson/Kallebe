@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currículo - Seu Nome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <button id="toggle-mode" aria-label="Alternar Modo"></button>
+        <h1>Kallebe Henrique</h1>
+        <p>Desenvolvedor Web e Analista de Dados</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><button onclick="showSection('about')">Sobre</button></li>
+            <li><button onclick="showSection('education')">Educação</button></li>
+            <li><button onclick="showSection('skills')">Habilidades</button></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="about" class="content-section">
+            <h2>Sobre</h2>
+            <p>Estou estudando ciências da computação, buscando aprender e trabalhar com web, adquirindo experiência em HTML, CSS, JavaScript e outras tecnologias.</p>
+            <h2>Dados</h2>
+            <p>23 anos</p>
+            <p>kallebehenrique2016@gmail.com</p>
+            <p>https://github.com/Kalleusson/Kallebe.git</p>
+        </section>
+
+        <section id="experience" class="content-section hidden">
+            <h2>Experiência</h2>
+            <ul>
+                <li><strong>Empresa XYZ</strong> - Desenvolvedor Web (2022 - Presente)</li>
+            </ul>
+        </section>
+
+        <section id="education" class="content-section hidden">
+            <h2>Educação</h2>
+            <h3>Cursando</h3>
+            <ul>
+                <li><strong>Faculdade Estacio de Sá</strong> - Bacharelado em Ciência da Computação (2023 - 2028)</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="content-section hidden">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML, CSS, JavaScript e Python</li>
+            </ul>
+            <h2>Ferramentas</h2>
+            <ul>
+                <li>Vs Code</li>
+                <li>Eclipse</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kallebe Henrique. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
